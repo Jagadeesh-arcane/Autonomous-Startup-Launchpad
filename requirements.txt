@@ -1,0 +1,8 @@
+crewai >= 0.60
+litellm >= 1.80
+openai >= 2.8
+ollama
+streamlit
+pydantic
+duckduckgo-search
+reportlab
