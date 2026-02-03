@@ -49,32 +49,32 @@ All of this is orchestrated using multiple specialized AI agents.
 
 ```
 
-autonomous-startup-launchpad/
-│
-├── app.py                     # Streamlit UI
-├── README.md                  # Project documentation
-├── requirements.txt           # Python dependencies
-│
-├── src/
-│   ├── main.py                # Crew execution entry point
-│   ├── crew.py                # Task and agent orchestration
-│   │
-│   ├── agents/
-│   │   ├── market_researcher.py
-│   │   ├── financial_strategist.py
-│   │   └── content_marketer.py
-│   │
-│   ├── tools/
-│   │   ├── llm.py             # Ollama + LiteLLM configuration
-│   │   └── web_tools.py       # DuckDuckGo market search tool
-│   │
-│   ├── utils/
-│   │   └── pdf_generator.py   # Business plan PDF generator
-│   │
-│   └── config/
-│       └── settings.py        # Model and configuration values
-│
-└── venv/                      # Virtual environment (ignored by git)
+    autonomous-startup-launchpad/
+    │
+    ├── app.py                     # Streamlit UI
+    ├── README.md                  # Project documentation
+    ├── requirements.txt           # Python dependencies
+    │
+    ├── src/
+    │   ├── main.py                # Crew execution entry point
+    │   ├── crew.py                # Task and agent orchestration
+    │   │
+    │   ├── agents/
+    │   │   ├── market_researcher.py
+    │   │   ├── financial_strategist.py
+    │   │   └── content_marketer.py
+    │   │
+    │   ├── tools/
+    │   │   ├── llm.py             # Ollama + LiteLLM configuration
+    │   │   └── web_tools.py       # DuckDuckGo market search tool
+    │   │
+    │   ├── utils/
+    │   │   └── pdf_generator.py   # Business plan PDF generator
+    │   │
+    │   └── config/
+    │       └── settings.py        # Model and configuration values
+    │
+    └── venv/                      # Virtual environment (ignored by git)
 
 ````
 
@@ -161,15 +161,4 @@ multi-agent architectures with local LLMs.
 
 MIT License
 
-```
-
----
-
-If you want, next I can help you with:
-- 📸 README screenshots
-- 🧱 Architecture diagram
-- 🧭 v2 roadmap
-- 💼 Resume / LinkedIn project description
-
-Just tell me 👍
 ```
