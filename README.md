@@ -75,6 +75,7 @@ All of this is orchestrated using multiple specialized AI agents.
     │
     └── venv/                      # Virtual environment (ignored by git)
 
+```
 
 ## ⚙️ Setup Instructions
 
