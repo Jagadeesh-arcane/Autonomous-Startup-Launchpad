@@ -47,7 +47,6 @@ All of this is orchestrated using multiple specialized AI agents.
 
 ## 📁 Project Structure
 
-```
 
     autonomous-startup-launchpad/
     │
@@ -76,13 +75,11 @@ All of this is orchestrated using multiple specialized AI agents.
     │
     └── venv/                      # Virtual environment (ignored by git)
 
-````
-
----
 
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Create a Virtual Environment
+
 ```bash
 python -m venv venv
 venv\Scripts\activate   # Windows
@@ -160,5 +157,3 @@ multi-agent architectures with local LLMs.
 ## 📜 License
 
 MIT License
-
-```
